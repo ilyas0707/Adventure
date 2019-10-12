@@ -1,0 +1,35 @@
+.info-block
+	background: #f6f6f8
+	padding-top: 0.1rem
+	+laptop
+		padding: 1px 50px
+.block
+	margin-top: 5rem
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+	flex-wrap: wrap
+.block__item
+	margin-bottom: 4rem
+	text-align: center
+	width: 32%
+	+laptop
+		width: 49%
+	+tablet
+		width: 80%
+		margin: 0 auto 4rem
+.block__heading
+	font-size: rem(20px)
+	text-transform: uppercase
+	color: $mainColor
+.block__txt
+	font-size: rem(16px)
+	color: $textColor
+	line-height: 2
+.block__img
+	margin: 0 auto
+	display: block
+	height: 91px

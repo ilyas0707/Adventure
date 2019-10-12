@@ -1,0 +1,77 @@
+.slick__container
+	margin-bottom: 4rem
+.slick__item
+	outline: 0
+.slider__block
+	width: 50%
+	margin: 0 auto
+	text-align: center
+.slick-prev
+	z-index: 10
+	width: 35px
+	height: 70px
+	background: url(../img/arrow.png) 0 0 no-repeat
+	transform: rotate(180deg)
+	border: none
+	font-size: 0px
+	position: absolute
+	top: 27%
+	left: 40px
+	outline: 0
+.slick-next
+	z-index: 10
+	width: 35px
+	height: 70px
+	background: url(../img/arrow.png) 0 0 no-repeat
+	border: none
+	font-size: 0px
+	position: absolute
+	top: 30%
+	right: 40px
+	outline: 0
+.slick-dots
+	height: auto
+	position: absolute
+	top: 100%
+	left: 50%
+	transform: translateX(-50%)
+	display: inline-block
+	margin: 0
+	padding: 0
+.slick-dots li
+	margin-right: 0.3rem
+	display: inline-block
+	height: 10px
+	width: 10px
+	list-style: none
+	position: relative
+	margin-bottom: 10px
+
+.slick-dots li button
+	padding: 0
+	border-radius: 50%
+	width: 10px
+	height: 10px
+	font-size: 0
+	border: none
+	background: #cccccc
+	position: absolute
+	top: 0
+	left: 0
+	outline: 0
+.slick-dots .slick-active::before
+	content: ""
+	height: 10px
+	width: 10px
+	background: $mainColor
+	border-radius: 50%
+	display: inline-block
+	position: absolute
+	top: 0
+	left: 0
+	outline: 0
+.slick-dots .slick-active button
+	background: transparent
+	outline: 0
+
+

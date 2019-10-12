@@ -1,0 +1,51 @@
+.contact
+	padding: 45px 50px
+.title__heading.modify
+	margin-bottom: 60px
+.form__item
+	margin-top: 60px
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-around
+	+phone
+		flex-direction: column
+.form__row
+	padding: 11px
+	outline: 0
+	border: none
+	border-bottom: 1px solid #ccc
+	width: 40%
+	+placeholder
+		color: $secondtextColor
+		font-size: rem(16px)
+	+phone
+		margin-bottom: 60px
+		width: 90%
+.form__row.modify
+	padding: 11px
+	outline: 0
+	display: block
+	margin: 120px auto 30px
+	width: 90%
+	+placeholder
+		color: $secondtextColor
+		font-size: rem(16px)
+.form__btn
+	padding: 23px 106px
+	display: block
+	margin: 0 auto
+	background: $mainColor
+	border: none
+	border-radius: 50px
+	color: #fff
+	text-transform: uppercase
+	font-size: rem(16px)
+.form__btn:hover
+	outline: 0
+	opacity: 0.8
+.form__btn:active
+	background-color: $mainColor
+	box-shadow: 0 1px 1px rgba(255,255,255,.5), inset 0 2px 5px rgba(0,0,0,.5)
